@@ -1,0 +1,3 @@
+//подклчить библиотеку react-burger-menu
+$ yarn add react-burger-menu
+//в папке components создать файл SiteMenu.jsx

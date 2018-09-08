@@ -1,0 +1,7 @@
+//в папке olga
+$ create-react-app routing
+$ cd routing
+$ yarn start
+
+//в папке olga создать папку pages
+//в папке pages создать 2 файла jsx: Home.jsx, Test.jsx
