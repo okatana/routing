@@ -1,3 +1,8 @@
+html,
+body {
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -25,4 +30,29 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.flex-container{
+  display: -webkit-flex;
+  display:flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: space-around;
+  align-content: space-around;
+}
+
+.flex-item{
+  -webkit-flex-basis: 15% ;
+  flex-basis: 15% ;
+  border-right:solid #cccccc 1px;
+  border-bottom:solid #cccccc 1px;
+
+  padding:10px 10px;
+  margin:0;
+
+}
+.item-top{
+  border-top:solid #cccccc 1px;
 }

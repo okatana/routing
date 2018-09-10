@@ -9,6 +9,7 @@ const SiteMenu =({items})=>{
                 items.map((item, index)=>
                 <a key={index} className="menu-item" href={item.link}>
                 {item.title}
+
                 </a>
                 )}
         </Menu>
@@ -23,7 +24,7 @@ SiteMenu.propTypes = {
 SiteMenu.defaultProps = {
     items: [{
         link: '/',
-        title: 'Home'
+        title: 'Главная'
     }],
 }
 export default SiteMenu
